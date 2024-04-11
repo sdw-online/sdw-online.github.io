@@ -4,7 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Excel to Power BI Pipeline | Stephen David-Williams</title>
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #f4f4f4; padding: 20px 10%; }
+    header h1 { margin: 0; }
+    nav { padding: 0 10%; /* Align with the content padding */ }
+    nav ul { list-style-type: none; padding: 0; }
+    nav ul li { display: inline; margin-right: 20px; }
+    nav a { text-decoration: none; color: #333; }
+    .content { padding: 20px 10%; }
+    .content img { max-width: 100%; height: auto; }
+    .content ul { list-style-type: none; padding-left: 0; } /* Remove bullets for consistency */
+    .project-description { margin-bottom: 20px; }
+  </style>
 </head>
 <body>
   <header>
@@ -19,8 +31,12 @@
   </nav>
   <div class="content">
     <h2>Excel to Power BI pipeline</h2>
-    <!-- Markdown content rendered by Jekyll -->
-    {{ '/excel-to-powerbi.md' | markdownify }}
+    <p class="project-description">This moves data from Excel to SQL to Power BI.</p>
+    <!-- Here you would include the content of your documentation, which should be HTML converted from Markdown -->
+    <!-- As an example, let's add a paragraph and a link to a markdown file -->
+    <p>This project focuses on creating a seamless data pipeline from Excel spreadsheets to visualizations in Power BI. The process involves data cleaning, transformation, and loading into a SQL database, before being used to create interactive dashboards in Power BI.</p>
+    <p>For more detailed documentation, see the <a href="../README.md">README.md</a> file.</p>
+    <!-- If you had an actual .md file to show, you would link it above, or include the converted HTML content directly here -->
     <img src="../images/screenshot-of-power-bi.png" alt="Data pipeline visualization">
   </div>
 </body>
