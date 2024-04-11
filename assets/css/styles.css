@@ -36,6 +36,9 @@ nav a { font-weight: bold; }
 .card-text { color: #666; }
 
 
+
+
+
 /* Additional styles specific to projects.html */
 .project-list {
   list-style-type: none;
@@ -61,3 +64,23 @@ nav a { font-weight: bold; }
   color: #333;
 }
 
+
+
+/* Add styles for markdown content */
+.markdown-content {
+  max-width: 800px; /* or your preferred max width */
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Style for markdown headings, paragraphs, lists, etc. */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1rem;
+}
