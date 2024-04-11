@@ -4,37 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Stephen David-Williams</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background-color: #f4f4f4; padding: 20px 10%; }
-    header h1 { margin: 0; }
-    nav { padding: 0 10%; }
-    nav ul { list-style-type: none; padding: 0; }
-    nav ul li { display: inline; margin-right: 20px; }
-    nav a { text-decoration: none; color: #333; }
-    .content { padding: 20px 10%; }
-    .content ul { list-style-type: none; padding-left: 0; }
-    .content img { max-width: 100%; height: auto; }
-    .project-description { margin-bottom: 20px; }
-  </style>
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="container">
     <h1>Stephen David-Williams</h1>
     <p>Senior Data Engineer</p>
   </header>
-  <nav>
+  <nav class="container">
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
     </ul>
   </nav>
-  <div class="content">
+  <div class="container content">
     <h2>Projects</h2>
-    <ul>
-      <li><a href="excel-to-powerbi.html">Excel to Power BI pipeline</a></li>
-      <!-- More projects will be added here as list items -->
-    </ul>
+    <section class="grid">
+      <div class="card project-preview">
+        <a href="excel-to-powerbi.html">
+          <img src="../images/screenshot-of-power-bi.png" alt="Excel to Power BI pipeline">
+          <div class="card-content">
+            <h2 class="card-title">Excel to Power BI pipeline</h2>
+            <p class="card-text">This project demonstrates the transition from Excel to a SQL database and finally to Power BI visualizations.</p>
+          </div>
+        </a>
+      </div>
+      <!-- Additional projects can be added here with similar layout -->
+    </section>
   </div>
 </body>
 </html>
