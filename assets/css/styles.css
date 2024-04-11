@@ -36,15 +36,6 @@ nav a { font-weight: bold; }
 .card-text { color: #666; }
 
 
-.bold-link {
-  font-weight: bold;
-}
-
-.card-text a {
-  font-weight: bold;
-}
-
-
 /* Additional styles specific to projects.html */
 .project-list {
   list-style-type: none;
