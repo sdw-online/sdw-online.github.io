@@ -39,7 +39,7 @@ nav a { font-weight: bold; }
 /* Additional styles specific to projects.html */
 .project-list {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 .project-item {
@@ -50,7 +50,7 @@ nav a { font-weight: bold; }
 }
 
 .project-thumbnail {
-  width: 60px; /* Adjust thumbnail size as needed */
+  width: 60px; /* Adjust the thumbnail size as needed */
   margin-right: 20px;
   border-radius: 4px;
   object-fit: cover; /* Keeps image aspect ratio */
@@ -59,10 +59,5 @@ nav a { font-weight: bold; }
 .project-title {
   font-size: 1.2rem;
   color: #333;
-}
-
-/* You may also consider some hover effects for interaction feedback */
-.project-item:hover .project-title {
-  text-decoration: underline;
 }
 
